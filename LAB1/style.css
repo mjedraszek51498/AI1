@@ -47,6 +47,7 @@ header {
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px #888888;
 }
+
 img{
 
     border: 4px solid black;
@@ -102,6 +103,7 @@ h2 {
 ol {
     list-style-type: upper-roman;
     list-style-position: inside;
+
 }
 
 #end {

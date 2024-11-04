@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To Do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo">
+            <h2>To Do List</h2>
+            <div class="row">
+                <input type="text" id="filter" placeholder="Search..." onkeyup="filterTasks()">
+            </div>
+            <ul id="list">
+
+            </ul>
+            <div class="foot">
+                <input type="text" id="add" placeholder="Add Task...">
+                <input type="date" id="date" placeholder="">
+                <button onclick="addTask()">Add</button>
+            </div>
+        </div>
+    </div>
+    <script src="scrip.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+.todo{
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px auto 20px;
+}
+.row{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: lightgrey;
+
+}
+
+#filter{
+    background: transparent;
+    flex: 1;
+    padding: 15px; /* Adjust the padding value as needed */
+    border: none;
+    outline: none;
+
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: lightgrey;
+
+    border-radius: 10px;
+}
+
+.foot input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.foot input[type="date"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.foot button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.foot button:hover {
+    background-color: #45a049;
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li .task {
+    flex: 1;
+    padding-right: 10px;
+}
+
+ul li .date {
+    flex: 0 0 150px;
+    text-align: center;
+}
+
+ul li .close {
+    flex: 0 0 30px;
+    text-align: center;
+}
+
+ul li:hover {
+    background-color: lightgrey;
+}
+
+ul li .close:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.save-button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

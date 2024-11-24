@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pogodynka</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Pogodynka</h1>
+    <input type="text" id="city" placeholder="Wprowadź miasto">
+    <button id="submit">Pobierz</button>
+
+    <div id="weather">
+        <h2><span id="city-name"></span></h2>
+        <p><strong>Temperatura:</strong> <span id="temp"></span></p>
+        <p><strong>Ciśnienie:</strong> <span id="pressure"></span></p>
+        <p><strong>Wilgotność:</strong> <span id="humidity"></span></p>
+        <p><strong>Prędkość wiatru:</strong> <span id="wind"></span></p>
+        <p><strong>Opis:</strong> <span id="description"></span></p>
+        <img id="icon" src="" alt="Weather Icon">
+    </div>
+
+    <div id="forecast">
+        <h2 class="miasto">Prognoza pogody na kolejne dni:</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

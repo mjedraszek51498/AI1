@@ -1,0 +1,109 @@
+html{
+    /*background-image: url("back.png");*/
+    background-color: lightblue;
+}
+
+
+h1{
+    font-size: 3em;
+    text-align: left;
+    padding: 20px;
+
+}
+
+h2{
+    font-size: 2em;
+    text-align: left;
+    padding: 20px;
+}
+
+header{
+    background-color: rgba(255, 255, 0, 0.5); /* 90% opacity */
+    border-radius: 25px;
+}
+.kolumny{
+    background-color: rgba(150, 150, 150, 0.5);
+    padding: 30px;
+}
+
+nav{
+    background-color: rgba(150, 255, 150, 0.5); /* 90% opacity */
+}
+nav .k{
+    text-align: center;
+    list-style: none;
+
+    padding: 20px
+}
+
+.k li{
+    color: black;
+
+    padding: 20px;
+    font-size: 1.2em;
+    background-color: rgba(255, 0, 255, 0.5); /* 90% opacity */
+    margin: 0 60px 60px;
+    border: 10px outset;
+    border-radius: 25px;
+}
+
+.k a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+img{
+    border: 10px solid black;
+    border-radius: 50%;
+    margin: 20px;
+    width: 50%;
+    height: auto;
+
+}
+
+.calosc {
+display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+
+#section1, #section2, #section3{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+#section1{
+    background-color: rgba(255, 0, 0, 0.5); /* 90% opacity */
+}
+
+#section2{
+    background-color: rgba(0, 255, 0, 0.5); /* 90% opacity */
+}
+
+#section3{
+    background-color: rgba(0, 0, 255, 0.5); /* 90% opacity */
+}
+
+.col1{
+    background-color: rgba(150, 150, 255, 0.5); /* 90% opacity */
+    display: grid;
+    grid-template-columns: 1fr 2fr;align-items: center; /* Align items vertically in the center */
+
+
+
+}
+.image_container{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: relative; /* Ensure the container is positioned relatively */
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
